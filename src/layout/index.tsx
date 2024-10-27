@@ -1,12 +1,13 @@
 import { Outlet } from "react-router-dom"
 import Footer from "./Footer"
 import Header from "./Header"
+import { useState } from "react";
 
-
-const Layout = () => {
+const Layout = () => {  
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-        <Header />
+        <Header isOpen={isOpen} handleToggle={() => setIsOpen(false)} />
         <main>
             <Outlet />
         </main>

@@ -1,8 +1,9 @@
 import "./App.css"
+import RouteComponents from "./routes/route";
 
 const App = () => {
   return (
-    <div className="App"></div>
+      <RouteComponents />
   )
 }
 
