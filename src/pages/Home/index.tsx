@@ -42,14 +42,14 @@ const Home = () => {
 
   return (
     <div>
-      <div className="relative px-5 md:px-10 lg:px-20 pt-10 bg-primary lg:h-screen">
+      <div className="relative px-5 md:px-10 lg:px-20 pt-10 bg-primary">
         <img
           src={circle}
           alt="circle"
           className="absolute top-0 right-0 w-1/2 opacity-30"
         />
         <Fade direction="up">
-          <div className="grid grid-cols-1 md:grid-cols-2 pt-20 md:pt-60 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 pt-20 md:pt-32 items-center">
             <div>
               <h1 className="text-white font-normal text-3xl md:text-5xl leading-[44px] md:leading-[72px]">
                 Save time by building fast with Boldo Template

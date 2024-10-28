@@ -82,7 +82,9 @@ const About = () => {
       <div className="px-5 md:px-10 lg:px-20 py-20">
         <div className="lg:w-3/5 mx-auto">
           <p className="text-[#777777] text-xl mb-4">Our team</p>
-          <p className="text-3xl md:text-5xl leading-[40px] md:leading-[72px] mx-auto">The leadership team</p>
+          <p className="text-3xl md:text-5xl leading-[40px] md:leading-[72px] mx-auto">
+            The leadership team
+          </p>
           <p className="text-[#777777] text-lg mt-5">
             Conversion angel investor entrepreneur first mover advantage.
             Handshake infographic mass market crowdfunding iteration. Traction
@@ -115,7 +117,10 @@ const About = () => {
 
           <div className="mt-16">
             {values.map(({ title, desc, img }) => (
-              <div className="flex flex-col md:flex-row items-start gap-12 mb-16" key={title}>
+              <div
+                className="flex flex-col md:flex-row items-start gap-12 mb-16"
+                key={title}
+              >
                 <img src={img} alt={title} />
                 <div>
                   <p className="text-2xl md:text-3xl">{title}</p>
