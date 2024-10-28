@@ -1,6 +1,6 @@
 import { ABOUT, HOME } from "@/constants/path";
 import { Suspense, lazy } from "react";
-import { TailSpin } from "react-Loader-spinner";
+import { TailSpin } from "react-loader-spinner";
 
 const Load = (Component: any) => (props: any) =>
     (
