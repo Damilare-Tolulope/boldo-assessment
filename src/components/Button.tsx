@@ -10,7 +10,7 @@ const Button = ({
   return (
     <button
       onClick={onClick}
-      className={`text-white font-bold border-2 border-transparent text-xl rounded-full px-14 py-4 bg-white transition-all ease-linear duration-300 cursor-pointer md:hover:scale-105 ${
+      className={`text-white font-bold border-2 border-transparent text-base md:text-xl rounded-full px-14 py-3 md:py-4 bg-white transition-all ease-linear duration-300 cursor-pointer md:hover:scale-105 ${
         isSecondary ? "!bg-transparent border-white" : ""
       } ${
         isDisabled

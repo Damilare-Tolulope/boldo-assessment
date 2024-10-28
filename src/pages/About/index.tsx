@@ -41,18 +41,19 @@ const About = () => {
           <img src={about5} className="w-full h-full" alt="im" />
         </div>
         <div className="lg:w-3/5 mx-auto">
-        <p className="text-[#777777] text-xl mb-4">Our story</p>
-        <p className="text-5xl leading-[72px] mx-auto">
-          Handshake infographic mass market crowdfunding iteration.
-        </p>
-        <div className="mt-6 text-[#777777] text-xl">
-          Conversion angel investor entrepreneur first mover advantage.
-          Handshake infographic mass market crowdfunding iteration. Traction
-          stock user experience deployment beta innovator incubator focus. Sales
-          user experience branding growth hacking holy grail monetization
-          conversion prototype stock network effects. Learning curve network
-          effects return on investment bootstrapping business-to-consumer.{" "}
-        </div>
+          <p className="text-[#777777] text-xl mb-4">Our story</p>
+          <p className="text-5xl leading-[72px] mx-auto">
+            Handshake infographic mass market crowdfunding iteration.
+          </p>
+          <div className="mt-6 text-[#777777] text-xl">
+            Conversion angel investor entrepreneur first mover advantage.
+            Handshake infographic mass market crowdfunding iteration. Traction
+            stock user experience deployment beta innovator incubator focus.
+            Sales user experience branding growth hacking holy grail
+            monetization conversion prototype stock network effects. Learning
+            curve network effects return on investment bootstrapping
+            business-to-consumer.{" "}
+          </div>
         </div>
       </div>
 
@@ -141,7 +142,7 @@ const About = () => {
               className="border-2 border-white bg-white text-xl text-black placeholder:text-black rounded-full px-10 py-4 w-1/3"
               placeholder="Your email address"
             />
-            <Button className="bg-[#65E4A3] border-[#65E4A3] text-primary">
+            <Button className="!bg-[#65E4A3] !border-[#65E4A3] !text-primary">
               Start Now
             </Button>
           </div>
